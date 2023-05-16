@@ -150,6 +150,14 @@
       "relation": "manyToOne",
       "target": "api::profile.profile",
       "inversedBy": "boat_creates"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "photo.photo",
+      "required": true,
+      "max": 10,
+      "min": 4
     }
   }
 }
