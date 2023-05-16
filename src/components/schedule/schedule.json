@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_schedule_schedules",
+  "info": {
+    "displayName": "schedule",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "days": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::week.week"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weeks",
+  "info": {
+    "singularName": "week",
+    "pluralName": "weeks",
+    "displayName": "week"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "day": {
+      "type": "string"
+    }
+  }
+}

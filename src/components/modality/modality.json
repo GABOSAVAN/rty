@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_modality_modalities",
+  "info": {
+    "displayName": "modality"
+  },
+  "options": {},
+  "attributes": {
+    "modality": {
+      "type": "enumeration",
+      "enum": [
+        "hour",
+        "day",
+        "week"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_product_products",
+  "info": {
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cost": {
+      "type": "float",
+      "required": true
+    },
+    "measurement": {
+      "type": "enumeration",
+      "enum": [
+        "litro",
+        "mililitro",
+        "kilogramo",
+        "gramos",
+        "libra",
+        "onza",
+        "unidad",
+        "decena",
+        "docena",
+        "caja"
+      ],
+      "required": true
+    },
+    "quantity": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

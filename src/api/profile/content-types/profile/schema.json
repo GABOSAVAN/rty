@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "Profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "date_born": {
+      "type": "date"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "adress.addres",
+      "required": true
+    },
+    "provider": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::provider.provider",
+      "mappedBy": "profile"
+    }
+  }
+}

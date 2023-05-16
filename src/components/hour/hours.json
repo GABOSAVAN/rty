@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_hour_hours",
+  "info": {
+    "displayName": "hours"
+  },
+  "options": {},
+  "attributes": {
+    "start_hour": {
+      "type": "time",
+      "default": "00:00",
+      "required": true
+    },
+    "finish_hour": {
+      "type": "time",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sell_sell_boats",
+  "info": {
+    "displayName": "sell_boat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "boat": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::boat-create.boat-create"
+    },
+    "price": {
+      "type": "float",
+      "required": true,
+      "default": 1,
+      "min": 1
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_rental_boat_rentals",
+  "info": {
+    "displayName": "boat_rental",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "schedule": {
+      "type": "component",
+      "repeatable": false,
+      "component": "schedule.schedule"
+    },
+    "boat": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::boat-create.boat-create"
+    },
+    "modality": {
+      "type": "component",
+      "repeatable": false,
+      "component": "modality.modality",
+      "required": true
+    },
+    "price": {
+      "type": "float"
+    },
+    "hours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hour.hours",
+      "required": true
+    },
+    "experiences": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::experience.experience"
+    }
+  }
+}

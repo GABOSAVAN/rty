@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_type_types",
+  "info": {
+    "displayName": "type",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type_post": {
+      "type": "enumeration",
+      "enum": [
+        "rental",
+        "sell",
+        "products ",
+        "services"
+      ],
+      "required": true,
+      "default": "rental"
+    }
+  }
+}

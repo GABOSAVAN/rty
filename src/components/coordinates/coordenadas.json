@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_coordinates_coordenadas",
+  "info": {
+    "displayName": "coordenadas"
+  },
+  "options": {},
+  "attributes": {
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    }
+  }
+}
