@@ -43,6 +43,12 @@
       "relation": "oneToOne",
       "target": "api::provider.provider",
       "mappedBy": "profile"
+    },
+    "boat_creates": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::boat-create.boat-create",
+      "mappedBy": "profile"
     }
   }
 }

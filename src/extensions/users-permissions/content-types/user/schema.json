@@ -65,12 +65,6 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
-    },
-    "boat_creates": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::boat-create.boat-create",
-      "mappedBy": "users_permissions_user"
     }
   }
 }

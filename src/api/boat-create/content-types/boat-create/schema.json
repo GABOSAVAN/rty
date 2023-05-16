@@ -139,17 +139,17 @@
       "required": true,
       "component": "adress.addres"
     },
-    "users_permissions_user": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "boat_creates"
-    },
     "features": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::feature.feature",
       "mappedBy": "boat_create"
+    },
+    "profile": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::profile.profile",
+      "inversedBy": "boat_creates"
     }
   }
 }
