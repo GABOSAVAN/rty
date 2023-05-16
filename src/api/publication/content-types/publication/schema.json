@@ -19,10 +19,10 @@
     "title": {
       "type": "string"
     },
-    "verquehace": {
+    "rental": {
       "type": "component",
       "repeatable": false,
-      "component": "type.type",
+      "component": "rental.boat-rental",
       "required": true
     }
   }

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features",
+  "info": {
+    "singularName": "feature",
+    "pluralName": "features",
+    "displayName": "feature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "boat_create": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::boat-create.boat-create",
+      "inversedBy": "features"
+    }
+  }
+}
